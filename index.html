@@ -1,24 +1,25 @@
-<!DOCTYPE html>
+      <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Biodata Pribadi</title>
 </head>
 <body>
-    <table>
+    <table style="margin-left: auto;margin-right: auto;">
         <thead>
                 <tr>
                     <th>
-                        <h1 style="color:blue;">Welcome To My Personal Website</h1>
+                        <marquee><h1>Welcome To My Personal Website</h1></marquee>
                     </th>
                 </tr>
         </thead>
     </table>
     <br>
-    <tbody bgcolor="#C0C0C0">
-        <table border="2" cellpadding="10">
+    <tbody>
+        <table class="center" style="margin-left: auto;margin-right: auto;" border="2" cellpadding="10">
             <tr>
                 <td>
                     <a href="#profile">Profile</a>
@@ -43,7 +44,7 @@
     <main>
         <table>
             <section id="profile">
-                <table border="1" width=”980px″ cellspacing="0"> 
+                <table border="1" width=”780px″ cellspacing="0" style="margin-left: auto;margin-right: auto;"> 
                     <tr>
                         <th align=center valign=top width="780px">
                             Profile
@@ -52,14 +53,15 @@
                             <table>
                                 <tr>
                                     <h3>
-                                        <p>Nama : Syalom Gabriela Wagey</p>
-                                        <p>Mahasiswa Tingkat 2</p>
-                                        <p>Sistem Informasi 2020</p>
-                                        <p>Universitas Klabat</p>
-                                        <p>Beragama Kristen</p>
-                                        <p>Tinggal Di Tataaran 1</p>
                                         <p>
-                                            <img src="Foto Diri.jpeg" alt="Foto" width="150">
+
+                                            <img id="image1" width="450px" src="Foto Diri.jpeg" alt="Foto" style="display:block; margin: auto;">
+                                        </p>
+                                        <p align=center>
+                                            Hello everyone, my name is Syalom Gabriela Wagey. 
+                                            I'm studying at Universitas Klabat since 2020. 
+                                            And now I'm a 3rd-year student majoring in Information Systems. 
+                                            I live in Tataaran 1.
                                         </p>
                                     </h3>
                                 </tr>
@@ -74,7 +76,7 @@
         <br>
         <table>
             <section id="education">
-                <table border="1" width=”980px″ cellspacing="0"> 
+                <table border="1" width=”980px″ cellspacing="0" style="margin-left: auto;margin-right: auto;"> 
                     <tr>
                         <th align=center valign=top width="780px">
                             Education
@@ -85,13 +87,13 @@
                     <table>
                         <tr>
                             <h3>
-                                <p>Pernah bersekolah di :</p>
-                                <ol type="1">
+                                <p>Graduate from school: </p>
+                                <ol>
                                     <li>SDN 2 TATAARAN</li>
                                     <li>SMPN 1 TONDANO</li>
                                     <li>SMAN 3 TONDANO</li>
                                 </ol>
-                                <p>Tahun 2020 sedang menempuh pendidikan S1 di Universitas Klabat</p>
+                                <p>In 2020, currently studying for a bachelor's degree at the University of Klabat</p>
                             </h3>
                         </tr>
                     </table>
@@ -101,31 +103,34 @@
             <br>
             <table>
                 <section id="hoby">
-                    <table border="1" width=”980px″ cellspacing="0"> 
+                    <table border="1" width=”980px″ cellspacing="0" style="margin-left: auto;margin-right: auto;"> 
                         <tr>
                             <th align=center valign=top width="780px">
                                 Hoby
                             </th>
                         </tr>
                     </table>
-                    <tbody>
-                        <table>
-                            <tr>
-                                <h3 style="color:blue;">Hasil foto berdasarkan hobi Photography saya</h3>
-                                <p>
-                                    <br><img src="JalanKomplek.jpeg" alt="gambar" width="360">
-                                    <br><img src="LangitSore.jpeg" alt="gambar" width="360">
-                                    <br><img src="PemandanganSatu.jpeg" alt="gambar" width="360">
-                                    <br><img src="Kucing.jpeg" alt="gambar" width="360">
-                                </p>
-                            </tr>
-                        </table>
-                    </tbody>
+                    <h3>Some photos from my photography hobby</h3>
+                    <section id="container2">
+                        
+                        <div id="image3">
+                            <img  src="PemandanganSatu.jpeg" alt="gambar" width="140%">
+                        </div>
+                        <div id="image2">
+                            <img  src="LangitSore.jpeg" alt="gambar" width="140%">
+                        </div>
+                        <div id="image2">
+                            <img  src="JalanKomplek.jpeg" alt="gambar" width="130%">
+                        </div>
+                        <div id="image2">
+                            <img  src="Kucing.jpeg" alt="gambar" width="120%">
+                        </div>
+                    </section>
                 </section>
             </table>
             <br>
             <section id="personal-contact">
-                <table border="1" width=”980px″ cellspacing="0"> 
+                <table border="1" width=”980px″ cellspacing="0" style="margin-left: auto;margin-right: auto;"> 
                     <tr>
                         <th align=center valign=top width="780px">
                             Personal Contact
@@ -135,6 +140,7 @@
                 <tbody>
                     <table>
                         <tr>
+                            <p><h3>Phone Number : 085343627243</h3></p>
                             <p><h3>Email Student : s2200652@student.unklab.ac.id</h3></p>
                             <p><h3>Instagram : sg_wagey</h3></p>
                         </tr>
@@ -143,7 +149,7 @@
             </section>
             <br>
             <section id="project-video">
-                <table border="1" width="980px" cellspacing="0">
+                <table border="1" width="980px" cellspacing="0"style="margin-left: auto;margin-right: auto;">
                     <tr>
                         <th align=center valign=top width="780px">
                             Project Video
@@ -153,7 +159,7 @@
                 <tbody>
                     <table>
                         <tr>
-                            <p><h3>Project Video Final Work Education</h3></p>
+                            <p><h3>The final project for semester 1 of the Worked Education course in 2020</h3></p>
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/neQww9nIMBw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </tr>
                     </table>
@@ -164,9 +170,9 @@
     <br>
     <br>
     <section class="extra-info">
-        <label for="extra">Kritik/Saran/Pesan untuk saya :</label>
+        <label for="extra">Criticisms/Suggestions/Messages you want to convey to me :</label>
         <br>
-        <textarea placeholder="Tulis jawaban anda disini" id="extra" name="extra" rows="5" cols="60"></textarea>
+        <textarea placeholder="Write your answer here!" id="extra" name="extra" rows="5" cols="60"></textarea>
     </section>
     <br>
     <br>
